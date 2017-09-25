@@ -10,7 +10,7 @@ module.exports = {
     path: path.join(__dirname),
     filename: 'googlesignin.js',
     libraryTarget: 'umd',
-    library: 'GoogleSignIn'
+    library: 'ReactGoogleSignIn'
   },
 
   externals: {
