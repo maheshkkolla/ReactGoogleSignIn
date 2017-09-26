@@ -7,17 +7,11 @@ module.exports = {
   entry: './lib/index.js',
 
   output: {
-    path: path.join(__dirname),
-    filename: 'googlesignin.js',
+    path: path.join(__dirname, 'dist'),
+    filename: 'index.js',
     libraryTarget: 'umd',
     library: 'ReactGoogleSignIn'
   },
-
-  externals: {
-   'react': 'var React',
-   'react/addons': 'var React'
-  },
-
   module: {
     loaders: [
       {
