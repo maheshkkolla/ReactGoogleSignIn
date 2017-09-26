@@ -9,6 +9,10 @@
   "main": "dist/index.js",
   "author": "Mahesh Kumar Kolla",
   "license": "BSD",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/maheshkkolla/ReactGoogleSignIn"
+  },
   "keywords": [
     "react",
     "reactjs",
